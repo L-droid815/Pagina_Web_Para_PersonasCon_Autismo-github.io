@@ -56,10 +56,27 @@ strong{
 /*Esta es la parte del main que es la parte de las tarjetas*/
 
 img{
+    /* Puedes añadir estilos aquí si quieres que las imágenes se ajusten mejor a las tarjetas */
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Centra la imagen */
 }
 
-.tecnica-pomodoro .active-recall .mapas-mentales{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* 1. Estilos para la Cuadrícula (Grid) de 5 Partes */
+.usando-grid {
+    display: grid;
+    /* Divide el contenedor en 5 columnas de igual ancho (1fr) */
+    grid-template-columns: repeat(5, 1fr);
+    /* Espacio entre las tarjetas */
+    gap: 20px; 
+    padding: 20px;
+    border: 1px solid white;
+}
+
+/*Esta es la parte de las tecnicas de estudio*/
+
+.tecnica-pomodoro{
+    border: 5px solid white;
+    border-radius: 10px;
 }
