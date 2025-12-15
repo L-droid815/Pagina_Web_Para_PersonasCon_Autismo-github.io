@@ -70,13 +70,17 @@ img{
     grid-template-columns: repeat(5, 1fr);
     /* Espacio entre las tarjetas */
     gap: 20px; 
-    padding: 20px;
-    border: 1px solid white;
 }
 
 /*Esta es la parte de las tecnicas de estudio*/
 
-.tecnica-pomodoro{
-    border: 5px solid white;
+.tecnica-pomodoro, .active-recall, .mapas-mentales, .metodo-cornell, .metodo-feymann{
+    border: 5px solid #FFD700;
     border-radius: 10px;
+}
+
+/*Esta es la parte del encabezado en donde estan los famosos que tienen TDAH y TDA*/
+
+.encabezado-1{
+    text-align: center;
 }
