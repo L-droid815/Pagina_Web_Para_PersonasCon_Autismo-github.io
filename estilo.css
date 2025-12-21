@@ -84,3 +84,30 @@ img{
 .encabezado-1{
     text-align: center;
 }
+
+.usando-grid-2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.michael-jordan{
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*Esta es la parte de justin bieber*/
+
+.justin-bieber{
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.will-smith{
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    padding: 15px;
+}
