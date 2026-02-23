@@ -34,20 +34,15 @@ nav ul li a {
     display: block;
 }
 
-i{
-    color: #fff;
-    cursor: pointer;
-
+h1, p, h2{
+    color: hsl(0, 16%, 96%);
+    font-size: 25px;
 }
 
 .color-de-fondo{
     background-color: #1a1a1a;
 }
 
-h1, p, h2{
-    color: hsl(0, 16%, 96%);
-    font-size: 18px;
-}
 
 strong{
     color: #FFD700;
@@ -61,6 +56,17 @@ img{
     height: auto;
     display: block;
     margin: 10px auto; /* Centra la imagen */
+}
+
+.introduccion-al-TDAH{
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.ventajas-de-las-personas-con-TDAH li{
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /* 1. Estilos para la Cuadrícula (Grid) de 5 Partes */
